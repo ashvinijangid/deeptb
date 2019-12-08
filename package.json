@@ -1,0 +1,28 @@
+{
+  "name": "deeptb",
+  "version": "1.0.0",
+  "description": "DeepLearnign Tb Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashvinijangid/deeptb.git"
+  },
+  "author": "ashvini jangid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashvinijangid/deeptb/issues"
+  },
+  "homepage": "https://github.com/ashvinijangid/deeptb#readme",
+  "dependencies": {
+    "blueimp-file-upload": "^10.4.0",
+    "font-awesome": "^4.7.0",
+    "iframe-transport": "0.0.1",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-widget": "^0.1.8",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

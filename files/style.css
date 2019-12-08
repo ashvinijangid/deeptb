@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  width: 100%;
+  user-select: none;
+  overflow: hidden; }
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0; }
+
+canvas {
+  z-index: -1;
+  position: absolute;
+  top: 0; }
+
+.progress {
+  height: 2rem !important;
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DeepTB</title>
+    <link rel="stylesheet" href="{% static 'materialize-css/dist/css/materialize.css' %}">
+    <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+<body>
+<input type="hidden" id="csrf-token" value="{{ csrf_token }}">
+<div class="row">
+    <h1 class="center">Deep Learning Based Tb</h1>
+    <div id="input-image" class="col s12 m12">
+        <div class="col file-field input-field s12 m12 l12 xl12">
+            <div class="col s1 m3 l4 xl4"></div>
+            <div class="col btn pink darken-1 s10 m6 l4 xl4">
+                <span>Select:  Image</span>
+                <input id="x-image" type="file"/>
+            </div>
+            <div class="file-path-wrapper col s1 m3 l4 xl4">
+                <label>
+                    <input style="width: 0" class="file-path validate" type="text"
+                           placeholder="Upload file"/>
+                </label>
+            </div>
+        </div>
+        <label for="image-input"> </label>
+    </div>
+</div>
+
+<div id="upload-bar" class="progress">
+    <div class="determinate"></div>
+</div>
+<h1 id="result" class="result center"></h1>
+
+<canvas id="c"></canvas>
+
+<footer class="page-footer blue-grey darken-4 s12 z-depth-2">
+    <div class="container">
+        <p class="flow-text bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt
+            excepturi harum, maxime nulla praesentium velit? Alias ex facilis iste odit provident quis sunt! Ad
+            beatae quasi recusandae totam voluptates.</p>
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#">Contact US</a>
+        </div>
+    </div>
+
+</footer>
+
+
+<script src="{% static 'jquery/dist/jquery.js' %}"></script>
+<script src="{% static 'materialize-css/dist/js/materialize.js' %}"></script>
+<script src="{% static 'scripts.js' %}"></script>
+{#<script src="{% static 'animation.js' %}"></script>#}
+</body>
+</html>
