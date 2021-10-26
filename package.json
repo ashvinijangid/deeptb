@@ -21,7 +21,7 @@
     "font-awesome": "^4.7.0",
     "iframe-transport": "0.0.1",
     "jquery": "^3.4.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.0",
     "jquery-widget": "^0.1.8",
     "materialize-css": "^1.0.0-rc.2"
   }
